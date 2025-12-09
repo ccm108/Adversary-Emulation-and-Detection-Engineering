@@ -11,8 +11,8 @@
 $TestIDs = @(
     "T1053.005",   # Scheduled Task / Job (Persistence)
     "T1036",       # Masquerading
-    "T1574.002",   # DLL Side-Loading
-    "T1003.001",   # LSASS Memory Access (if available)
+    "T1574.001",   # DLL Side-Loading
+    "T1566,002",   # Phishing
     "T1047"        # Windows Management Instrumentation
 )
 
