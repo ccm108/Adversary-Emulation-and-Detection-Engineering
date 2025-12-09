@@ -19,4 +19,3 @@ Invoke-AtomicTest T1003 -TestNames "LSASS Process Memory"
 5. T1574.002 — DLL Side-Loading
 Invoke-AtomicTest T1574.001 -GetPrereqs
 Invoke-AtomicTest T1574.001
-
