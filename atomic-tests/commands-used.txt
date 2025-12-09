@@ -1,1 +1,22 @@
+1. T1053.005 — Scheduled Task / Job (Persistence)
+Creates and runs a harmless scheduled task.
+Invoke-AtomicTest T1053.005 -Execution Lever
+
+2. T1036 — Masquerading (Rename System Tools)
+Copy-Item "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" "C:\Temp\chrome_updater.exe"
+C:\Temp\chrome_updater.exe -Command "Write-Output 'APT29 Masquerading Test'"
+
+Relevant Event Logs:
+Event ID 1 — Process Creation
+Event ID 7 — Image Loaded (optional)
+
+3. T1566 — Phishing (Attachment Execution Simulation)
+Invoke-AtomicTest T1566.002
+
+4. T1003 — Credential Dumping (LSASS Simulation)
+Invoke-AtomicTest T1003 -TestNames "LSASS Process Memory"
+
+5. T1574.002 — DLL Side-Loading
+Invoke-AtomicTest T1574.001 -GetPrereqs
+Invoke-AtomicTest T1574.001
 
