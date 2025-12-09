@@ -1,7 +1,7 @@
 <#
     Cybersecurity Atomic Test Runner
     --------------------------------
-    Author: Jacob Komi
+    Author: Christopher Braddock-Miller & Jacob Komi
     Course: COSC 435 - Computer & Network Security
     Purpose:
         This script executes selected MITRE ATT&CK techniques 
