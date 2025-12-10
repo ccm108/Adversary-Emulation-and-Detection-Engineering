@@ -103,13 +103,6 @@ Future versions may expand into SIEM dashboards, Sigma rules, ELK integration, o
 
 ---
 
-## 🤝 Want to Contribute?
-Feel free to fork, iterate, and expand the attack set.  
-Add more techniques, detection rules, or dashboards.  
-Pull requests are always welcome.
-
----
-
 ## 📝 Final Notes
 If you’ve ever wanted to see how APT‑style attacks actually look under the hood — this project gives you that visibility. Learn how adversaries behave, how defenders detect, and why detection engineering is one of the most important skills in cybersecurity.
 
